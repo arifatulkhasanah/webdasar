@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+/* Body & Text Style */
 
 * {
    box-sizing: border-box;
 }
+
 body {
-   font-family: 'Akaya Kanadaka', cursive;
+   font-family: "Akaya Kanadaka", cursive;
    margin: 0;
    padding: 0;
- }
-  
-h1, h2, h3 {
-    color: #ffffff
- }
+}
 
+h1,
 h2 {
-    color: #ff75a0
- }
-  
- footer {
+   color: #ffffff;
+}
+
+h3 {
+   color: #ff75a0;
+}
+
+footer {
    padding: 20px;
    color: white;
    background-color: #ff75a0;
@@ -25,34 +29,12 @@ h2 {
    font-weight: bold;
 }
 
-a:active{
+a:active {
    color: white;
 }
+
 header {
    display: inline;
-}
-
-.profile header {
-   text-align: center;
-}
-
-.profile{
-   background-color: #ff75a0;
-}
-
-.profile img {
-   height: 200px;
-   border-radius : 50%;
-}
-
-.profile h1{
-   font-size: 40px;
-}
-.card {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   border-radius: 5px;
-   padding: 20px;
-   margin-top: 20px;
 }
 
 .jumbotron {
@@ -63,13 +45,53 @@ header {
    color: white;
 }
 
+/* Profile Style */
 
-#tableProfile{
+.profile header {
+   text-align: center;
+}
+
+.profile {
+   background-color: #ff75a0;
+}
+
+.profile img {
+   height: 200px;
+   border-radius: 50%;
+}
+
+.profile h1 {
+   font-size: 40px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+#tableProfile {
    color: white;
 }
-table th{
+
+table th {
    margin-bottom: 5px;
 }
+
+/* Content Style */
+
+.row {
+   display: flex;
+}
+
+.foto-katalog {
+   flex-grow: 1;
+   width: 300px;
+   height: 300px;
+   margin-right: 32px;
+}
+
 
 main {
    padding: 20px;
@@ -77,40 +99,38 @@ main {
 }
 
 #content {
-   float: right;
+   float: left;
    width: 75%;
 }
 
 aside {
-   float: right;
+   float: left;
    width: 25%;
    padding-right: 20px;
    color: white;
 }
 
-section h2{
+.owner {
    color: white;
 }
 
-.titleSection{
+.titleSection {
    padding-top: 1px;
    padding-left: 2px;
    background-color: #ff75a0;
-   opacity: 0.4;
+   opacity: 0.90;
    height: 70px;
- 
 }
 
-#tableContent{
+#tableContent {
    color: black;
 }
 
-
-
 @media screen and (max-width: 1000px) {
+
    #content,
    aside {
-       width: 100%;
-       padding: 0;
+      width: 100%;
+      padding: 0;
    }
 }
