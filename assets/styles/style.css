@@ -12,6 +12,10 @@ body {
 h1, h2, h3 {
     color: #ffffff
  }
+
+h2 {
+    color: #ff75a0
+ }
   
  footer {
    padding: 20px;
@@ -78,7 +82,7 @@ main {
 }
 
 aside {
-   float: left;
+   float: right;
    width: 25%;
    padding-right: 20px;
    color: white;
