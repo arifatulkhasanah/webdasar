@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");//
 
 /* Body & Text Style */
 
@@ -7,17 +7,17 @@
 }
 
 body {
-   font-family: "Akaya Kanadaka", cursive;
+   font-family: "Roboto", sans-serif;
    margin: 0;
    padding: 0;
 }
 
 h1,
-h2 {
+h2, h3 {
    color: #ffffff;
 }
 
-h3 {
+h4 {
    color: #ff75a0;
 }
 
