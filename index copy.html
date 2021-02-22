@@ -1,49 +1,26 @@
 <body>
-    <header>
-        <title>Submission Ficoding by Arifatul Khasanah</title>
-        <link rel="stylesheet" href="assets/styles/style copy.css" />
-        <!--logo-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <!--font awesome-->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <div class="jumbotron">
-            <h1 class="title">Sampai Berjumpa</h1>
-            <h4 class="title-desc">Sampai Berjumpa adalah official gift hampers made with love</h4>
-        </div>
-    </header>
-    <main>
-        <!-- Katalog Produk Sampai Berjumpa -->
-        <div id="content">
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="foto-katalog" src="assets/image/satu.jpeg">
-                    <h2>Produk A</h2>
-                </div>
-                <div class="col-md-4">
-                    <img class="foto-katalog" src="assets/image/dua.jpeg">
-                    <h2>Produk B</h2>
-                </div>
-                <div class="col-md-4">
-                    <img class="foto-katalog" src="assets/image/tiga.jpeg">
-                    <h2>Produk C</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="foto-katalog" src="assets/image/empat.jpeg">
-                    <h2>Produk D</h2>
-                </div>
-                <div class="col-md-4">
-                    <img class="foto-katalog" src="assets/image/lima.jpeg">
-                    <h2>Produk E</h2>
-                </div>
-                <div class="col-md-4">
-                    <img class="foto-katalog" src="assets/image/enam.jpeg">
-                    <h2>Produk F</h2>
-                </div>
-            </div>
-            <article class="card">
-                <section style="margin-bottom: 20px;" id="Pendidikan">
+  <header>
+    <title>Submission Ficoding by Arifatul Khasanah</title>
+    <link rel="stylesheet" href="assets/styles/style copy.css" />
+    <!--logo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--font awesome-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <div class="jumbotron">
+      <h1 class="title">Sampai Berjumpa</h1>
+      <h4 class="title-desc">Official gift hampers made with love</h4>
+    </div>
+  </header>
+  <main>
+    <!-- Katalog Produk Sampai Berjumpa -->
+    <div id="content">
+      <article class="card">
+        <section style="margin-bottom: 24px" id="Produk-Produk">
+          <section class="titleSection">
+            <h1 style="text-align: center">Our Product by Sampai Berjumpa</h1>
+          </section>
+        </section>
+        <!-- <section style="margin-bottom: 20px;" id="Pendidikan">
                     <section class="titleSection">
                         <h2><i class="fa fa-graduation-cap" style="margin-left: 5px; margin-right: 10px;"></i>Pendidikan</h2>
                     </section>
@@ -148,55 +125,124 @@
                             </tr>
                         </table>
                     </section>
-                </section>
-            </article>
-        </div>
+                </section> -->
+        <div class="row">
+          <button class="col-4" onclick="detailProduk(1)">
+            <img class=" foto-katalog" src="assets/image/satu.jpeg" />
+            <h2>Produk A</h2>
+            <i class="fa fa-angle-down pink" style="font-size: 32px;"></i>
+            <div id="detailProduk1" class="isi-produk">
+              <p>Harga: Rp.85.000</p>
+              <p>Proses Pengerjaan: 4-7 Hari</p>
+              <p>Isi Paket: pashmina crutty baby dol, bella square, bergo, iner rajut dan masker.</p>
+            </div>
+          </button>
 
-        <!-- Biodata Diri -->
-        <aside>
-            <article class="profile card">
-                <header>
-                    <figure>
-                        <img src="assets/image/arifa.jpg"/>
-                    </figure>
-                    <h1>Arifatul Khasanah</h1>
-                </header>
-                 <section>
-                    <h2> Owner </h2>
-                </section>
-                <section>
-                    <table id="tableProfile">
-                        <tr>
-                            <th><i style="font-size: 24px; color: white;"></i></th>
-                            <td>Arifatul Khasanah</td>
-                        </tr>
-                        <br>
-                        <tr>
-                            <th><i class="fa fa-home" style="font-size: 24px; color: white;"></i></th>
-                            <td>Jl. Cempaka Sari Timur Sekaran, Gunungpati Kota Semarang</td>
-                        </tr>
-                        <br>
-                        <tr>
-                            <th><i class="fa fa-envelope" style="font-size: 24px; color: white;"></i></th>
-                            <td>arifatulkhasanah99@gmail.com</td>
-                        </tr>
-                        <br>
-                        <tr>
-                            <th><i class="fa fa-phone-square" style="font-size: 24px; color: white;"></i></th>
-                            <td>+6282175902075</td>
-                        </tr>
-                        <br>
-                        <tr>
-                            <th><i class="fa fa-globe" style="font-size: 24px; color: white;"></i></th>
-                            <td><a href="https://www.instagram.com/sampaiberjumpa.id/" style="color: white;">https://www.instagram.com/sampaiberjumpa.id/</a></td>
-                        </tr>
-                    </table>
-                </section>
-            </article>
-        </aside>
-    </main>
-    <footer>
-        <p>Made With Love</p>
-        <p>&copy; By Sampai Berjumpa</p>
-    </footer>
+          <button class="col-4" onclick="detailProduk(2)">
+            <img class="foto-katalog" src="assets/image/dua.jpeg" />
+            <h2>Produk B</h2>
+            <i class="fa fa-angle-down pink" style="font-size: 32px;"></i>
+            <div id="detailProduk2" class="isi-produk">
+              <p>Harga: Rp.85.000</p>
+              <p>Proses Pengerjaan: 4-7 Hari</p>
+              <p>Isi Paket: pashmina crutty baby dol, bella square, bergo, iner rajut dan masker.</p>
+            </div>
+          </button>
+          <button class="col-4" onclick="detailProduk(3)">
+            <img class="foto-katalog" src="assets/image/tiga.jpeg" />
+            <h2>Produk C</h2>
+            <i class="fa fa-angle-down pink" style="font-size: 32px;"></i>
+            <div id="detailProduk3" class="isi-produk">
+              <p>Harga: Rp.85.000</p>
+              <p>Proses Pengerjaan: 4-7 Hari</p>
+              <p>Isi Paket: pashmina crutty baby dol, bella square, bergo, iner rajut dan masker.</p>
+            </div>
+          </button>
+          <button class="col-4" onclick="detailProduk(4)">
+            <img class="foto-katalog" src="assets/image/empat.jpeg" />
+            <h2>Produk D</h2>
+            <i class="fa fa-angle-down pink" style="font-size: 32px;"></i>
+            <div id="detailProduk4" class="isi-produk">
+              <p>Harga: Rp.85.000</p>
+              <p>Proses Pengerjaan: 4-7 Hari</p>
+              <p>Isi Paket: pashmina crutty baby dol, bella square, bergo, iner rajut dan masker.</p>
+            </div>
+          </button>
+          <button class="col-4" onclick="detailProduk(5)">
+            <img class="foto-katalog" src="assets/image/lima.jpeg" />
+            <h2>Produk E</h2>
+            <i class="fa fa-angle-down pink" style="font-size: 32px;"></i>
+            <div id="detailProduk5" class="isi-produk">
+              <p>Harga: Rp.85.000</p>
+              <p>Proses Pengerjaan: 4-7 Hari</p>
+              <p>Isi Paket: pashmina crutty baby dol, bella square, bergo, iner rajut dan masker.</p>
+            </div>
+          </button>
+          <button class="col-4" onclick="detailProduk(6)">
+            <img class="foto-katalog" src="assets/image/enam.jpeg" />
+            <h2>Produk F</h2>
+            <i class="fa fa-angle-down pink" style="font-size: 32px;"></i>
+            <div id="detailProduk6" class="isi-produk">
+              <p>Harga: Rp.85.000</p>
+              <p>Proses Pengerjaan: 4-7 Hari</p>
+              <p>Isi Paket: pashmina crutty baby dol, bella square, bergo, iner rajut dan masker.</p>
+            </div>
+          </button>
+        </div>
+      </article>
+    </div>
+    <!-- Biodata Diri -->
+    <aside>
+      <article class="profile card">
+        <header>
+          <div class="photo-container"> <img class="my-profile" src="assets/image/arifatul.jpeg" />
+          </div>
+          <h1>Arifatul Khasanah</h1>
+          <h2>Owner</h2>
+        </header>
+        <section>
+          <p><i class="fa fa-home" style="font-size: 18px; color: white"></i>Jl. Cempaka Sari Timur Sekaran, Gunungpati
+            Kota Semarang</p>
+          <p><i class="fa fa-envelope" style="font-size: 18px; color: white"></i>arifatulkhasanah99@gmail.com</p>
+
+          <p>
+            <i class="fa fa-phone-square" style="font-size: 18px; color: white"></i>+6282175902075
+          </p>
+          <p>
+            <i class="fa fa-instagram" style="font-size: 18px; color: white"></i>
+            <a href="https://www.instagram.com/sampaiberjumpa.id/" style="color: white">sampaiberjumpa.id</a>
+          </p>
+        </section>
+      </article>
+    </aside>
+  </main>
+  <footer>
+    <p>Made With Love</p>
+    <p>&copy; By Sampai Berjumpa</p>
+  </footer>
+
+  <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+    function detailProduk(id) {
+      document.getElementById("detailProduk" + id).classList.toggle("show");
+    }
+
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
 </body>
